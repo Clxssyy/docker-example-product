@@ -40,3 +40,4 @@ COPY --from=base /app/decompressor /app/decompressor
 
 # Run the product
 ENTRYPOINT ["./decompressor"]
+
